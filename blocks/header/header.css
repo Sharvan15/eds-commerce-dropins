@@ -146,8 +146,10 @@ header nav .nav-brand a {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  max-width: 200px;
   height: auto;
+  display: block;
+  padding-right: 20px;
 }
 
 /* sections */
