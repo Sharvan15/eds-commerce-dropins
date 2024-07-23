@@ -150,6 +150,7 @@ header nav .nav-brand img {
   height: auto;
   display: block;
   padding-right: 20px;
+  padding-left: 10px;
 }
 
 /* sections */
@@ -186,6 +187,11 @@ header nav .nav-sections ul > li > ul > li {
 }
 
 @media (width >= 900px) {
+
+  header nav .nav-brand img {
+    padding-left: 0;
+  }
+  
   header nav .nav-sections {
     display: block;
     visibility: visible;
