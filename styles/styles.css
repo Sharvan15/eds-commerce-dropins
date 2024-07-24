@@ -392,7 +392,11 @@ main .section {
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: var(--color-neutral-500);
+  background-color: var(--color-pm-blue);
+}
+
+.section.highlight.cards-container .default-content-wrapper {
+  color: var(--color-neutral-50);
 }
 
 /* Base Design System Tokens */
