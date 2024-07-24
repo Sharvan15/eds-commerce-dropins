@@ -191,7 +191,7 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-brand img {
     padding-left: 0;
   }
-  
+
   header nav .nav-sections {
     display: block;
     visibility: visible;
@@ -206,6 +206,11 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
     padding-right: 16px;
     cursor: pointer;
+  }
+
+
+  header nav .nav-sections .nav-drop li a {
+   color: var(--color-neutral-50);
   }
 
   header nav .nav-sections .nav-drop::after {
@@ -253,7 +258,7 @@ header nav .nav-sections ul > li > ul > li {
     width: 200px;
     margin-top: 12px;
     padding: 1em;
-    background-color: var(--color-neutral-500);
+    background-color: var(--color-pm-blue);
     white-space: initial;
   }
 
@@ -266,7 +271,7 @@ header nav .nav-sections ul > li > ul > li {
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-bottom: 8px solid var(--color-neutral-500);
+    border-bottom: 8px solid var(--color-pm-blue);
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li {

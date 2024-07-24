@@ -14,6 +14,7 @@
 
 :root {
   /* Adobe Commerce Dropin design tokens */
+  --color-pm-blue: #0C2B3E;
   --color-brand-300: #6d6d6d;
   --color-brand-500: #454545;
   --color-brand-600: #383838;
