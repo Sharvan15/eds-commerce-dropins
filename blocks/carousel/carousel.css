@@ -53,7 +53,7 @@
 
 .carousel .carousel-slide .carousel-slide-content {
   z-index: 1;
-  padding: 1rem;
+  padding: 1rem 4rem;
   margin: 1.5rem 3rem;
   color: white;
   background-color: rgba(0 0 0 / 50%);
@@ -99,8 +99,8 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 0.5rem;
-  right: 0.5rem;
+  left: 1rem;
+  right: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -144,8 +144,8 @@
 
 @media (width >= 600px) {
   .carousel .carousel-navigation-buttons {
-    left: 1rem;
-    right: 1rem;
+    left: 3rem;
+    right: 3rem;
   }
 
   .carousel .carousel-navigation-buttons button {
