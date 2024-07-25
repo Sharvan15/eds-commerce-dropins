@@ -15,6 +15,10 @@
 :root {
   /* Adobe Commerce Dropin design tokens */
   --color-pm-blue: #0C2B3E;
+  --color-pm-orange: #e77324;
+  --color-pm-turquoise: #17acc0;
+
+
   --color-brand-300: #6d6d6d;
   --color-brand-500: #454545;
   --color-brand-600: #383838;
@@ -298,7 +302,7 @@ button.button {
   text-align: center;
   cursor: pointer;
   color: var(--color-neutral-50);
-  background-color: var(--color-brand-500);
+  background-color: var(--color-pm-orange);
   margin: var(--spacing-small) 0;
   white-space: nowrap;
   overflow: hidden;
@@ -310,7 +314,7 @@ main a.button:hover,
 main a.button:focus,
 button.button:hover,
 button.button:focus {
-  background-color: var(--color-brand-600);
+  background-color: var(--color-pm-turquoise);
   cursor: pointer;
 }
 
