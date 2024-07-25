@@ -109,7 +109,8 @@
 
 /* stylelint-disable-next-line no-descending-specificity */
 .carousel .carousel-navigation-buttons button {
-  border-radius: 8px;
+  border: 1px solid transparent;
+  border-radius: 0;
   margin: 0;
   padding: 0;
   width: 2rem;
@@ -149,8 +150,8 @@
   }
 
   .carousel .carousel-navigation-buttons button {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
   }
 
   .carousel .carousel-navigation-buttons button::after {
