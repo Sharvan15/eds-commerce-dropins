@@ -184,6 +184,7 @@
 
 .section.carousel-section-container {
   padding: 0;
+  margin: 0 -(var(--spacing-medium));
 }
 
 main .section .carousel-wrapper {
