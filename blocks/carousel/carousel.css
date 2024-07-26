@@ -159,6 +159,7 @@
   }
 
   .carousel .carousel-navigation-buttons button {
+    cursor: pointer;
     width: 5rem;
     height: 5rem;
   }

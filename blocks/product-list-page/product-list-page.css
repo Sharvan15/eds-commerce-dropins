@@ -13,3 +13,7 @@
         min-height: auto;
     }
 }
+
+[class*="add-to-cart-button"] button.rounded-full {
+    background-color: var(--color-pm-orange);
+}
