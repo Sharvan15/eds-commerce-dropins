@@ -19,5 +19,5 @@
   }
   
   [class*="add-to-cart-button"] button.rounded-full:hover {
-    background-color: var(--color-pm-torquoise);
+    background-color: var(--color-pm-turquoise);
   }
