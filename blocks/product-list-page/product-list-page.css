@@ -21,3 +21,7 @@
   [class*="add-to-cart-button"] button.rounded-full:hover {
     background-color: var(--color-pm-turquoise);
   }
+
+  [class*="per-page-picker"] button {
+    border-radius: 100px;
+  }
