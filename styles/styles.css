@@ -399,6 +399,10 @@ main .section.highlight {
   background-color: var(--color-pm-blue);
 }
 
+.section.highlight {
+  margin-top: 100px;
+}
+
 .section.highlight.cards-container .default-content-wrapper {
   color: var(--color-neutral-50);
 }

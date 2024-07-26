@@ -159,13 +159,13 @@
   }
 
   .carousel .carousel-navigation-buttons button {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
   }
 
   .carousel .carousel-navigation-buttons button::after {
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .carousel .carousel-slide .carousel-slide-content {
