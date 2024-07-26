@@ -7,11 +7,10 @@ main .section>div.product-recommendations-wrapper {
 
 .product-recommendations {
     overflow: hidden;
-    min-height: 512px;
 }
 
 .product-recommendations .scrollable {
-    overflow-x: scroll;
+    overflow-x: auto;
     scroll-snap-type: x mandatory;
     padding-bottom: 1rem;
 }
@@ -71,10 +70,4 @@ main .section>div.product-recommendations-wrapper {
 .product-recommendations .product-grid-item {
     margin: 0;
     scroll-snap-align: start;
-}
-
-@media (width >= 900px) {
-    .product-recommendations {
-        min-height: 534px;
-    }
 }
