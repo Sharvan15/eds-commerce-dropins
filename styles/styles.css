@@ -404,7 +404,7 @@ main .section.highlight {
 }
 
 .section.highlight {
-  margin-top: 100px;
+  margin: 100px calc(var(--spacing-medium) * -1) 0;
 }
 
 .section.highlight.cards-container .default-content-wrapper {
