@@ -245,6 +245,7 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
     font-weight: 500;
     cursor: pointer;
+    padding-bottom: 12px;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
