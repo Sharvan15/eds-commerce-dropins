@@ -132,21 +132,36 @@ export default async function decorate(block) {
     brandLink.closest('.button-container').className = '';
   }
 
+
   const navSections = nav.querySelector('.nav-sections');
-  if (navSections) {
-    navSections
-      .querySelectorAll(':scope .default-content-wrapper > ul > li')
-      .forEach((navSection) => {
-        if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
-        navSection.addEventListener('hover', () => {
-          if (isDesktop.matches) {
-            const expanded = navSection.getAttribute('aria-expanded') === 'true';
-            toggleAllNavSections(navSections);
-            navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-          }
-        });
-      });
-  }
+if (navSections) {
+  navSections
+    .querySelectorAll(':scope .default-content-wrapper > ul > li')
+    .forEach((navSection) => {
+      if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
+      
+      // Function to handle mouseenter
+      const handleMouseEnter = () => {
+        if (isDesktop.matches) {
+          toggleAllNavSections(navSections);
+          navSection.setAttribute('aria-expanded', 'true');
+        }
+      };
+
+      // Function to handle mouseleave
+      const handleMouseLeave = () => {
+        if (isDesktop.matches) {
+          navSection.setAttribute('aria-expanded', 'false');
+        }
+      };
+
+      // Add mouseenter event listener
+      navSection.addEventListener('mouseenter', handleMouseEnter);
+
+      // Add mouseleave event listener
+      navSection.addEventListener('mouseleave', handleMouseLeave);
+    });
+}
 
   const navTools = nav.querySelector('.nav-tools');
 
